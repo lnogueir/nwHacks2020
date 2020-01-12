@@ -27,7 +27,16 @@ router.route('/create').post( (req, res) => {
     });
 
     newCourse.save()
-        .then(() => res.json('Course Added!'))
+        .then(() => {
+            User.findOne( { 'username': req.user.username } )
+                .then( user => {
+                    user.courses.push(newCourse._id);
+                    user.save()
+                        .then(() => res.json('User Updated!'))
+                        .catch(err => res.status(400).json('Error: ' + err));
+                })
+                .catch(err => res.status(400).json('Error: ' + err));
+        })
         .catch(err => res.status(400).json('Error: ' + err));
 });
 

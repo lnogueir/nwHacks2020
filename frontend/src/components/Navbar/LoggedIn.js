@@ -16,6 +16,11 @@ function LoggedIn(props) {
                 <button onClick={() => Utils.getUser()} className="navbar-button">
                     About
                 </button>
+                <Link to={'/dashboard'}>
+                    <button>
+                        App
+                    </button>
+                </Link>
             </div>
         </header>
     )

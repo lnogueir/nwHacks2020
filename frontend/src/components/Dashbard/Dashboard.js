@@ -1,15 +1,13 @@
 import React from 'react'
-import SideBar from './SideBar'
+import Sidebar from './NewSidebar'
 import Navbar from '../Navbar/Navbar'
-
-
 
 function Dashboard(props) {
 
     return (
         <>
             <Navbar.LoggedIn />
-            <SideBar />
+            <Sidebar />
         </>
     )
 }

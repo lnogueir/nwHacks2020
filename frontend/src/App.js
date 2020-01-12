@@ -31,16 +31,13 @@ function App() {
   }, [])
 
   return (
-    <Files notes={notes}></Files>
-    //<Empty></Empty> Working
-    /*
     <ThemeProvider theme={weNoteTheme}>
       <div className="app">
         <Router>
           <Switch>
-            <PrivateRoute path="/dashboard">
+            <Route path="/dashboard">
               <Dashboard user={user} />
-            </PrivateRoute>
+            </Route>
             <Route path="/">
               <Home user={user} />
             </Route>
@@ -48,7 +45,7 @@ function App() {
         </Router>
       </div>
     </ThemeProvider>
-  */);
+  );
 }
 
 export default App;
