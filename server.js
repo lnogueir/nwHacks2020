@@ -18,7 +18,7 @@ app.use(express.static(path.join(__dirname, 'frontend', 'build')));
 //==============================================
 const uri = process.env.ATLAS_URI;
 
-mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex: true } );
+mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true } );
 const connection = mongoose.connection;
 connection.once('open', () => {
     console.log("Database connection established")
@@ -141,7 +141,6 @@ app.get('/user/logout', (req, res) => {
 //User Get Request
 //Returns 
 app.get('/user', (req, res) => {
-    //res.header('Access-Control-Allow-Origin', 'http://localhost:3000/');
     if (!req.user) {
         res.status(401).json("Not logged in");
     }

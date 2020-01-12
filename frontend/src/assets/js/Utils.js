@@ -1,3 +1,5 @@
+const axios = require('axios');
+
 class Utils {
     static isEmptyString(str) {
         return typeof str === 'undefined' || str == null || str.trim() === '' || str === undefined
@@ -6,10 +8,8 @@ class Utils {
     static getRandomNumber() { return Math.floor(Math.random() * 10000) }
 
     static getUser() {
-        // var req = new Utils.Request()
-        // const endpoint = '/user'
-        // const response = req.GET(endpoint)
-        return true
+        const endpoint = 'http://localhost:5000/user';
+        axios.get(endpoint).then(e => console.log(e));
     }
 
     static logout() {

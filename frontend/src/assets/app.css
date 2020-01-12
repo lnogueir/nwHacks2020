@@ -263,8 +263,6 @@ input{
   color: rgba(0, 0, 255, 1);
 }
 
-
-
 .home-main-buttons{
   display: flex;
   justify-content: space-around;
@@ -304,7 +302,6 @@ input{
   background-color: #494F55;
 }
 
-
 .side-bar{
   position: fixed;
   z-index: 102;
@@ -342,4 +339,8 @@ input{
 
 .side-bar-lecture:hover{
   background: #eeeeee;
+
+.empty-view {
+  background-image: url('background.png');
+
 }
