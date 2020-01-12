@@ -2,6 +2,9 @@ const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
 
+const Grid = require('gridfs-stream');
+const fs = require('fs');
+
 require('dotenv').config();
 
 //Setup app and port
@@ -10,11 +13,14 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-//Passport shit
+//Passport Configuration
+var flash = require('express-flash')
+app.use(flash());
+
+let User = require('./models/user.model')
 const passport = require('passport');
 const LocalStrategy = require('passport-local');
 const passportLocalMongoose = require('passport-local-mongoose');
-let User = require('./models/user.model')
 
 app.use(require("express-session")({
     secret: "supersecretkey",
@@ -38,6 +44,7 @@ connection.once('open', () => {
     console.log("Database connection established")
 })
 
+//Routers
 const courseRouter = require('./routes/course');
 const lectureRouter = require('./routes/lecture');
 const noteRouter = require('./routes/note');
@@ -48,6 +55,7 @@ app.use('/lecture', lectureRouter);
 app.use('/note', noteRouter);
 app.use('/user', userRouter);
 
+//Registration routing
 app.post('/register', function (req, res) {
     User.register(new User({
         username: req.body.username,
@@ -66,15 +74,21 @@ app.post('/register', function (req, res) {
 });
 
 app.post('/login', passport.authenticate("local", {
-    successRedirect: "/user",
-    failureRedirect: "/"
-}), function (req, res) { })
+    failureFlash: 'Invalid username or password.',
+    successFlash: 'Welcome!'
+}), function (req, res) { 
+    res.status(200);
+    res.send(res.isAuthenticated())
+    User.find( { username: req.body.username } )
+        .then(e => {res.json(e)});
+})
 
 app.get("/logout", function (req, res) {
     req.logout();
     res.redirect("/")
 });
 
+//Start the app!
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });

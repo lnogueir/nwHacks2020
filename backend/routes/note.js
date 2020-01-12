@@ -1,9 +1,7 @@
 const router = require('express').Router()
 let Note = require('../models/note.model');
 
-//Course get request
-//Returns: the lecture data of the lecture with the given id
-//  in JSON format
+//Note get request
 router.route('/:id').get( (req, res) => {
     Note.findById(req.params.id)
         .then(note => res.json(note))
