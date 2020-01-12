@@ -1,7 +1,6 @@
 const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
-const path = require('path');
 
 require('dotenv').config();
 
@@ -15,16 +14,19 @@ const uri = process.env.ATLAS_URI;
 mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex: true } );
 const connection = mongoose.connection;
 connection.once('open', () => {
-    console.log("Databse connection established")
+    console.log("Database connection established")
 })
 
 const courseRouter = require('./routes/course');
 const lectureRouter = require('./routes/lecture');
 const noteRouter = require('./routes/note');
 const userRouter = require('./routes/user');
+const fileRouter = require('./routes/file');
 
-app.use('/exercises', exercisesRouter);
-app.use('/users', usersRouter);
+app.use('/course', courseRouter);
+app.use('/lecture', lectureRouter);
+app.use('/note', noteRouter);
+app.use('/user', userRouter);
 
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
