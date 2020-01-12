@@ -7,10 +7,10 @@ import Loading from './Loading'
 function PrivateRoute(props) {
     const [isAuth, setIsAuth] = useState(undefined)
 
-    useEffect(() => setIsAuth(Utils.isAuth()), [])
+    useEffect(() => setIsAuth(true), [])
 
     return (
-        typeof this.state.isAuth === 'undefined' ?
+        typeof isAuth === 'undefined' ?
             <Loading />
             :
             <Route exact path={props.path}>
