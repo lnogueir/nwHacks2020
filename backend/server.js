@@ -85,61 +85,54 @@ const storage = new GridFsStorage({
 const upload = multer( { storage } )
 
 //==============================================
-//Routers
+//User Routing
 //==============================================
-const courseRouter = require('./routes/course');
-const lectureRouter = require('./routes/lecture');
-const noteRouter = require('./routes/note');
-const userRouter = require('./routes/user');
-
-app.use('/course', courseRouter);
-app.use('/lecture', lectureRouter);
-app.use('/note', noteRouter);
-app.use('/user', userRouter);
-
-//==============================================
-//Registration routing
-//==============================================
-app.post('/register', function (req, res) {
+app.post('/user/register', (req, res) => {
     User.register(new User({
         username: req.body.username,
         name: req.body.name,
         courses: [],
         notes: [],
-    }), req.body.password,
-        function (err, user) {
-            if (err) {
-                console.log(err);
-            }
-            passport.authenticate("local")(req, res, function () {
-                res.send("successful registration")
-            })
-        });
+    }),
+    req.body.password,
+    (err, user) => {
+        if (err) {
+            console.log(err);
+        }
+        passport.authenticate("local")(req, res, () => {
+            res.send("You have been registered!")
+        })
+    });
 });
 
-app.post('/login', passport.authenticate("local"), function (req, res) { 
+app.post('/user/login', passport.authenticate("local"), (req, res) => { 
     res.status(200);
+    console.log(`User ${req.user.username} has logged in.`);
     User.find( { username: req.body.username } )
-        .then(e => {res.json(e)});
+        .then(e => {res.json(e)})
+        .catch(err => res.status(400).json('Error: ' + err));
 })
 
-app.get('/check', (req, res) => {
-    console.log(req.session);
-})
-
-app.get("/logout", function (req, res) {
+app.get('/user/logout', (req, res) => {
+    console.log(`User ${req.user.username} has logged out.`);
     req.logout();
     res.send("you've been logged out");
 });
 
+app.get('/user/:id', (req, res) => {
+    User.findById(req.params.id)
+        .then(e => {res.json(e)})
+        .catch(err => res.status(400).json('Error: ' + err));
+})
+
 //==============================================
 //File upload routing
 //==============================================
-app.post('/upload', upload.array('file'), (req, res) => {
+app.post('/note/upload', upload.array('file'), (req, res) => {
     res.json({file: req.files});
 })
 
-app.get('/files', (req, res) => {
+app.get('/note/notes', (req, res) => {
     gfs.files.find().toArray( (err, files) => {
         if(!files || files.length == 0) {
             return res.status(404).json({
@@ -150,7 +143,7 @@ app.get('/files', (req, res) => {
     })
 })
 
-app.get('/files/:filename', (req, res) => {
+app.get('/note/:filename', (req, res) => {
     gfs.files.findOne({filename: req.params.filename}, (err, file) => {
         if (!file || file.length == 0) {
             return res.status(404).json({
@@ -161,6 +154,17 @@ app.get('/files/:filename', (req, res) => {
         readstream.pipe(res);
     });
 })
+
+//==============================================
+//Routers
+//==============================================
+const courseRouter = require('./routes/course');
+const lectureRouter = require('./routes/lecture');
+const noteRouter = require('./routes/note');
+
+app.use('/course', courseRouter);
+app.use('/lecture', lectureRouter);
+app.use('/note', noteRouter);
 
 //==============================================
 //Start the app!

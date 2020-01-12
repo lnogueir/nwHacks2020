@@ -2,9 +2,9 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const noteSchema = new Schema({
-    format: { type: String },
-    authorId: { type: String },
-    data: { type: String },
+    filename: { type: String },
+    filetype: { type: String },
+    author: { type: String },
 }, {
     timestamps: true,
 });

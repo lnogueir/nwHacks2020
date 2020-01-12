@@ -24,24 +24,8 @@ router.route('/:id').delete( (req, res) => {
         .catch(err => res.status(400).json('Error: ' + err));
 });
 
-//Lecture add request
-//Performs: an addition of a lecture with the given details
-//Returns: a confirmation
-router.route('/add').post((req, res) => {
-    const subject = req.body.subject;
-    const date = req.body.date;
-    const notes = [];
 
-    const newLecture = new Lecture({
-        subject,
-        date,
-        notes,
-    });
 
-    newLecture.save()
-        .then(() => res.json('Lecture Added!'))
-        .catch(err => res.status(400).json('Error: ' + err));
-});
 
 //Lecture update request
 //Performs: an update of a lecture's information with the given details
