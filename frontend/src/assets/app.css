@@ -258,8 +258,6 @@ input{
   color: rgba(0, 0, 255, 1);
 }
 
-
-
 .home-main-buttons{
   display: flex;
   justify-content: space-around;
@@ -297,4 +295,8 @@ input{
 
 .home-main-buttons > button:nth-child(2){
   background-color: #494F55;
+}
+
+.empty-view {
+  background-image: url('background.png');
 }

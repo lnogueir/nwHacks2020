@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const lectureSchema = new Schema({
-    subject: { type: String, required: true },
+    subject: { type: String, required: true }, // What the lecture is about
     date: { type: Date, required: true },
     notes: { type: [String] }
 }, {
