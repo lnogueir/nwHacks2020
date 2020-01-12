@@ -9,14 +9,25 @@ import Utils from './assets/js/Utils'
 import './assets/app.css';
 import Empty from './components/Empty';
 import Files from './components/Files';
+import axios from 'axios'
 
 function App() {
   let notes=["16e2f29c5e0a8521fd7ee9139d966144.pdf", "b3f1b490d9425d13f7cced9fbefea84f.pdf"];
   const [user, setUser] = useState(null)
 
+  const getUser = () => {
+    const endpoint = 'http://localhost:5000/user'
+    axios.get(endpoint).then(response => {
+      if (response.status === 200) {
+        setUser(response.data)
+      } else {
+        setUser(null)
+      }
+    }).catch(err => null)
+  }
+
   useEffect(() => {
-    let user = Utils.getUser()
-    setUser(user)
+    getUser()
   }, [])
 
   return (

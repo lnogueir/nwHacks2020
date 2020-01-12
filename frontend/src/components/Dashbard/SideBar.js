@@ -81,7 +81,7 @@ class SideBar extends React.Component {
             showLoaderOnConfirm: true,
             preConfirm: (course_name) => {
                 let updated_user = this.state.user
-                updated_user.courses[course_id].push({ title: course_name, lectures: [] })
+                updated_user.courses[course_id].lectures.push({ title: course_name, lectures: [] })
                 this.setState({ user: updated_user })
             },
             allowOutsideClick: () => !Swal.isLoading()
@@ -97,7 +97,7 @@ class SideBar extends React.Component {
                 </div>
                 {this.state.user.courses.map((course, i) => {
                     return (
-                        <div>
+                        <div key={i}>
                             <ExpansionPanel style={{ borderRadius: 0 }}>
                                 <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
                                     <span className="side-bar-courses-title">{course.title}</span>
@@ -107,9 +107,9 @@ class SideBar extends React.Component {
                                         <span>Lectures</span>
                                         <span className="side-bar-add-icon2"><AddBox onClick={() => this.createLecture(i)} /></span>
                                     </div>
-                                    {course.lectures.map(lecture => {
+                                    {course.lectures.map((lecture, i) => {
                                         return (
-                                            <div className="side-bar-lecture">
+                                            <div key={i} className="side-bar-lecture">
                                                 <span>{lecture.title}</span>
                                             </div>
                                         )
