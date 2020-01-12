@@ -1,4 +1,5 @@
-import $ from 'jquery'
+import $ from 'jquery';
+import axios from 'axios';
 
 class Utils {
 
@@ -9,14 +10,15 @@ class Utils {
     static getRandomNumber() { return Math.floor(Math.random() * 10000) }
 
     static getUser() {
+        let req = new Utils.Request()
+        
         const endpoint = 'http://10.19.130.163:5000/user'
-        $.get({
-            url: endpoint,
-            success: res => {
-                console.log(res)
-            }
-        })
-        return false
+        req.GET(endpoint).then(res=>{
+            console.log(res)
+        }
+        // axios.get(endpoint).then(res => {
+            
+        // })
     }
 
     static logout() {

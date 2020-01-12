@@ -8,7 +8,6 @@ import weNoteTheme from './assets/js/weNoteTheme'
 import Utils from './assets/js/Utils'
 import './assets/app.css';
 
-
 function App() {
   const [user, setUser] = useState(null)
 
