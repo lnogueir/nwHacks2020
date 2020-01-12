@@ -4,7 +4,6 @@ let Lecture = require('../models/lecture.model');
 let Note = require('../models/note.model');
 let User = require('../models/user.model')
 
-
 //Course create request
 //Performs: an addition of a course with the given details
 //Returns: a confirmation

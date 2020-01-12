@@ -90,6 +90,10 @@ const upload = multer( { storage } )
 //==============================================
 //User Routing
 //==============================================
+
+//User Registration Request
+//Performs: User registration
+//Returns: An error if failed, a confirmation if succeeded
 app.post('/user/register', (req, res) => {
     User.register(new User({
         username: req.body.username,
@@ -99,29 +103,34 @@ app.post('/user/register', (req, res) => {
     }),
     req.body.password,
     (err, user) => {
-        if (err) {
-            console.log(err);
-        }
+        if (err) {console.log(err)}
         passport.authenticate("local")(req, res, () => {
-            res.send("You have been registered!")
+            console.log(`${req.body.username} has been registered`)
+            res.json({"message": "registration successful"})
         })
     });
 });
 
+//User Login Request
+//Performs: Login, session
 app.post('/user/login', passport.authenticate("local"), (req, res) => { 
     res.status(200);
-    console.log(`User ${req.user.username} has logged in.`);
     User.find( { username: req.body.username } )
         .then(e => {res.json(e)})
         .catch(err => res.status(400).json('Error: ' + err));
+    console.log(`User ${req.user.username} has logged in.`);
 })
 
+//User Logout Request
+//Performs: Logout
 app.get('/user/logout', (req, res) => {
     console.log(`User ${req.user.username} has logged out.`);
     req.logout();
-    res.send("you've been logged out");
+    res.json({"message": "logout successful"});
 });
 
+//User Get Request
+//Returns 
 app.get('/user/:id', (req, res) => {
     User.findById(req.params.id)
         .then(e => {res.json(e)})
@@ -131,6 +140,9 @@ app.get('/user/:id', (req, res) => {
 //==============================================
 //File upload routing
 //==============================================
+
+//Note Upload Request
+//Performs: Upload of a given note, addition of note filename to Lecture and author
 app.post('/lecture/upload', upload.array('file'), (req, res) => {
     req.files.map(elt => {
         let filename = elt.filename;
@@ -164,6 +176,8 @@ app.post('/lecture/upload', upload.array('file'), (req, res) => {
     })
 })
 
+//Note Get Request
+//Returns: readable and downloadable note file
 app.get('/note/:filename', (req, res) => {
     gfs.files.findOne({filename: req.params.filename}, (err, file) => {
         if (!file || file.length == 0) {
