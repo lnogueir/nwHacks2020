@@ -1,6 +1,7 @@
 import React from 'react'
 import LOGO from '../../assets/images/logo.png';
 import { Link } from 'react-router-dom'
+import Utils from '../../assets/js/Utils'
 
 function LoggedIn(props) {
     return (
@@ -12,7 +13,7 @@ function LoggedIn(props) {
                 </div>
             </Link>
             <div className="navbar-buttons">
-                <button className="navbar-button">
+                <button onClick={() => Utils.getUser()} className="navbar-button">
                     About
                 </button>
             </div>

@@ -1,16 +1,11 @@
+
+
 class Utils {
     static isEmptyString(str) {
         return typeof str === 'undefined' || str == null || str.trim() === '' || str === undefined
     }
 
     static getRandomNumber() { return Math.floor(Math.random() * 10000) }
-
-    static getUser() {
-        // var req = new Utils.Request()
-        // const endpoint = '/user'
-        // const response = req.GET(endpoint)
-        return true
-    }
 
     static logout() {
         window.localStorage.clear();

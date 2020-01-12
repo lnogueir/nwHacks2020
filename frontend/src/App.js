@@ -7,13 +7,24 @@ import { ThemeProvider } from '@material-ui/core/styles';
 import weNoteTheme from './assets/js/weNoteTheme'
 import Utils from './assets/js/Utils'
 import './assets/app.css';
+import axios from 'axios'
 
 function App() {
   const [user, setUser] = useState(null)
 
+  const getUser = () => {
+    const endpoint = 'http://localhost:5000/user'
+    axios.get(endpoint).then(response => {
+      if (response.status === 200) {
+        setUser(response.data)
+      } else {
+        setUser(null)
+      }
+    }).catch(err => null)
+  }
+
   useEffect(() => {
-    let user = Utils.getUser()
-    setUser(user)
+    getUser()
   }, [])
 
   return (
