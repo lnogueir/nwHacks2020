@@ -1,45 +1,24 @@
 {
   "files": {
-<<<<<<< Updated upstream
     "main.css": "/static/css/main.055755bf.chunk.css",
-    "main.js": "/static/js/main.1f3ca788.chunk.js",
-    "main.js.map": "/static/js/main.1f3ca788.chunk.js.map",
+    "main.js": "/static/js/main.edf85ae8.chunk.js",
+    "main.js.map": "/static/js/main.edf85ae8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6e015d03.js",
     "runtime-main.js.map": "/static/js/runtime-main.6e015d03.js.map",
-    "static/js/2.ce9742ca.chunk.js": "/static/js/2.ce9742ca.chunk.js",
-    "static/js/2.ce9742ca.chunk.js.map": "/static/js/2.ce9742ca.chunk.js.map",
+    "static/js/2.e6d6f227.chunk.js": "/static/js/2.e6d6f227.chunk.js",
+    "static/js/2.e6d6f227.chunk.js.map": "/static/js/2.e6d6f227.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.54be3ec075397b1add762834e1721c5f.js": "/precache-manifest.54be3ec075397b1add762834e1721c5f.js",
+    "precache-manifest.389125be1165cacc06699470bc525bf6.js": "/precache-manifest.389125be1165cacc06699470bc525bf6.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.055755bf.chunk.css.map": "/static/css/main.055755bf.chunk.css.map",
-    "static/js/2.ce9742ca.chunk.js.LICENSE": "/static/js/2.ce9742ca.chunk.js.LICENSE",
-=======
-    "main.css": "/static/css/main.6b0646f2.chunk.css",
-    "main.js": "/static/js/main.fed44cc1.chunk.js",
-    "main.js.map": "/static/js/main.fed44cc1.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.6e015d03.js",
-    "runtime-main.js.map": "/static/js/runtime-main.6e015d03.js.map",
-    "static/js/2.c020e101.chunk.js": "/static/js/2.c020e101.chunk.js",
-    "static/js/2.c020e101.chunk.js.map": "/static/js/2.c020e101.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.a0afbf747f4bb005857bec1af05f5ee9.js": "/precache-manifest.a0afbf747f4bb005857bec1af05f5ee9.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.6b0646f2.chunk.css.map": "/static/css/main.6b0646f2.chunk.css.map",
-    "static/js/2.c020e101.chunk.js.LICENSE": "/static/js/2.c020e101.chunk.js.LICENSE",
->>>>>>> Stashed changes
+    "static/js/2.e6d6f227.chunk.js.LICENSE": "/static/js/2.e6d6f227.chunk.js.LICENSE",
     "static/media/app.css": "/static/media/background.6cfef523.png",
     "static/media/logo.png": "/static/media/logo.21786caf.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6e015d03.js",
-<<<<<<< Updated upstream
-    "static/js/2.ce9742ca.chunk.js",
+    "static/js/2.e6d6f227.chunk.js",
     "static/css/main.055755bf.chunk.css",
-    "static/js/main.1f3ca788.chunk.js"
-=======
-    "static/js/2.c020e101.chunk.js",
-    "static/css/main.6b0646f2.chunk.css",
-    "static/js/main.fed44cc1.chunk.js"
->>>>>>> Stashed changes
+    "static/js/main.edf85ae8.chunk.js"
   ]
 }

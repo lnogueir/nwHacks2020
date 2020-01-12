@@ -141,7 +141,6 @@ app.get('/user/logout', (req, res) => {
 //User Get Request
 //Returns 
 app.get('/user', (req, res) => {
-    //res.header('Access-Control-Allow-Origin', 'http://localhost:3000/');
     if (!req.user) {
         res.status(401).json("Not logged in");
     }
