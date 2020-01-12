@@ -17,9 +17,6 @@ module.exports = {
       .map(result => result.description)
       .join("\n");
 
-    fs.writeFile(fileName + ".txt", detections, function(err) {
-      if (err) throw err;
-      console.log("File written with " + detections);
-    });
+    return detections;
   }
 };
