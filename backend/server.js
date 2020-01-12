@@ -31,6 +31,7 @@ passport.deserializeUser(User.deserializeUser());
 
 //Connect to the database
 const uri = process.env.ATLAS_URI;
+
 mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex: true } );
 const connection = mongoose.connection;
 connection.once('open', () => {
@@ -41,13 +42,11 @@ const courseRouter = require('./routes/course');
 const lectureRouter = require('./routes/lecture');
 const noteRouter = require('./routes/note');
 const userRouter = require('./routes/user');
-const fileRouter = require('./routes/file');
 
 app.use('/course', courseRouter);
 app.use('/lecture', lectureRouter);
 app.use('/note', noteRouter);
 app.use('/user', userRouter);
-app.use('/file', fileRouter);
 
 app.post('/register', function (req, res) {
     User.register(new User({
