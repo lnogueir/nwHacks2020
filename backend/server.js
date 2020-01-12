@@ -11,7 +11,7 @@ const port = process.env.PORT || 5000;
 require('dotenv').config();
 app.use(cors());
 app.use(express.json());
-app.use(express.static(path.join(__dirname, 'frontend', 'build')));
+app.use(express.static(path.join(__dirname, 'nwHacks2020', 'frontend', 'build')));
 
 //==============================================
 //Connect to the database
@@ -215,7 +215,7 @@ app.use('/lecture', lectureRouter);
 app.use('/note', noteRouter);
 
 app.get('/app', (req, res) => {
-    res.sendFile(path.join(__dirname, 'frontend', 'build', 'index.html'))
+    res.sendFile(path.join(__dirname, 'nwHacks2020', 'frontend', 'build', 'index.html'))
 });
 
 //==============================================
