@@ -34,7 +34,7 @@ router.route('/create').post( (req, res) => {
 //Course join request
 //Params: id = course id
 //Adds a student to a course object, adds a course to a student object
-router.route('/join/:id').post( (req, res) => {
+router.route('/join/:id').get( (req, res) => {
     Course.findById(req.params.id)
         .then(course => {
             course.students.push(req.user.username)
@@ -50,12 +50,20 @@ router.route('/join/:id').post( (req, res) => {
                 .then(() => res.json('User Updated!'))
                 .catch(err => res.status(400).json('Error: ' + err));
         })
+        .catch(err => res.status(400).json('Error: ' + err));
+})
+
+//Course create join link request
+//Params: id = course id
+//Creates a join link for the given course
+router.route('/link/:id').get( (req, res) => {
+    res.send("<a href='http://localhost:5000/course/join/" + req.params.id + "'>Click Me </a>");
 })
 
 //Course leave request
 //Params: id = course id
 //Removes a student to a course object, removes a course to a student object
-router.route('/leave/:id').post( (req, res) => {
+router.route('/leave/:id').get( (req, res) => {
     Course.findById(req.params.id)
         .then(course => {
             course.students = course.students.filter(e => e !== req.user.username)
@@ -71,6 +79,7 @@ router.route('/leave/:id').post( (req, res) => {
                 .then(() => res.json('User Updated!'))
                 .catch(err => res.status(400).json('Error: ' + err));
         })
+        .catch(err => res.status(400).json('Error: ' + err));
 })
 
 //Lecture add request
@@ -105,7 +114,9 @@ router.route('/createLecture/:id').post( (req, res) => {
                     .then(() => res.json('Course Updated!'))
                     .catch(err => res.status(400).json('Error: ' + err));
             })
+            .catch(err => res.status(400).json('Error: ' + err));
         })
+        .catch(err => res.status(400).json('Error: ' + err));
 })
 
 //Course get request

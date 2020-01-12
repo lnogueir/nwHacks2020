@@ -166,13 +166,14 @@ app.post('/lecture/upload', upload.array('file'), (req, res) => {
             .then(note => {
                 User.findOne( { 'username': req.user.username } )
                 .then(user => {
-                    console.log(user);
                     user.notes.push(filename)
                     user.save()
                         .then(() => res.json('File Uploaded!'))
                         .catch(err => res.status(400).json('Error: ' + err));
                 })
+                .catch(err => res.status(400).json('Error: ' + err));
             })
+            .catch(err => res.status(400).json('Error: ' + err));
     })
 })
 
