@@ -1,16 +1,19 @@
 import React from 'react'
-import logo from '../../logo.svg';
+import LOGO from '../../assets/images/logo.png';
+import { Link } from 'react-router-dom'
 
 function LoggedIn(props) {
     return (
         <header className="navbar">
-            <img alt="Logo" className="navbar-logo" src={logo} />
+            <Link to={'/'}>
+                <div className="navbar-logo">
+                    <img alt="Logo" src={LOGO} />
+                    <span className="logo-text">weNote</span>
+                </div>
+            </Link>
             <div className="navbar-buttons">
                 <button className="navbar-button">
-                    Sign In
-                </button>
-                <button className="navbar-button">
-                    Create Account
+                    About
                 </button>
             </div>
         </header>
