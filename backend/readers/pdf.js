@@ -1,23 +1,29 @@
-let fs = require('fs');
-let PDFParser = require("pdf2json");
-let path = require("path");
+let fs = require("fs"),
+  PDFParser = require("pdf2json"),
+  path = require("path");
 
-function getText(pdfFile) {
+async function pdfGetText(pdfFile) {
+  //let ext = path.extname(pdfFile);
+  //let fileName = path.basename(pdfFile, ext);
 
-    let pdfParser = new PDFParser(this,1);
+  let pdfParser = new PDFParser(this, 1);
+  let text = pdfParser.loadPDF(pdfFile);
 
-    let ext = path.extname(pdfFile);
-    let fileName = path.basename(pdfFile,ext);
+  pdfParser.on("pdfParser_dataError", errData =>
+    console.error(errData.parserError)
+  );
+  pdfParser.on("pdfParser_dataReady", pdfData => {
+      text = pdfParser.getRawTextContent();
+      console.log("I waited for this: " + text);
+      console.log("I waited for that");
+      text.then(function(result) {
+        return result;
+      })
+  });
 
-    pdfParser.on("pdfParser_dataError", errData => console.error(errData.parserError) );
-    pdfParser.on("pdfParser_dataReady", pdfData => {
-        fs.writeFile(fileName + '.txt', pdfParser.getRawTextContent(), function (err) {
-            if (err) throw err;
-            console.log('File written with ' + pdfParser.getRawTextContent());
-        });
-    });
-
-    pdfParser.loadPDF(pdfFile);
+  //return text;
 }
 
-export default getText;
+pdfGetText('./econ.pdf').then(function(result) {
+  console.log("At the final return " + result);
+});

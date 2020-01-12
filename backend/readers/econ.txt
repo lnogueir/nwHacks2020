@@ -1,0 +1,814 @@
+Chapter 9: Competitive Markets  
+9.1 Market Structure and Firm Behaviour 
+●Market Structure: ​All features of a market that may affect the behaviour and performance 
+of the firms in a market, such as the number of firms or the type of product they sell 
+●A market is said to be competitive when its firms have little or no market power. The more 
+market power the firms have, the less competitive the market is.  
+●Firms in perfectly competitive markets (e.g. the Saskatchewan and Manitoba wheat 
+producers)  do not ​compete actively​ with each other 
+●Firms that do actively compete with each other (e.g. MasterCard and Visa) do not operate in 
+perfectly competitive markets 
+9.2 The Theory of Perfect Competition 
+●Assumption of Perfect Competition:  
+○1. All firms in the industry sell an identical product. Economists say that the firms 
+sell a ​homogeneous product.  
+○2. Consumers know the characteristics of the product being sold and the prices 
+charged by various firms. ➝​perfect information 
+○3. Level of each firm’s output at which its long-run average cost reaches a minimum 
+is small relative to the industry’s total output. (each firm is small relative to the size 
+of the industry) 
+○4. Industry is characterized by freedom of entry and exit. Existing firms cannot block 
+the entry of new firms, and there are no legal prohibitions or other barriers to 
+entering or exiting the industry.  
+●Perfect competition ➝ price taker, has no market power, passively accept whatever 
+happens to be the market price, but can sell as much as it wants (quantity) 
+●Even though the demand curve for the entire industry is negatively sloped, each firm in a 
+perfectly competitive industry faces a horizontal demand curve because variations in the 
+firm’s output have no significant effect on market price. ➝ leave price unchanged 
+9.3 Short-Run Decisions 
+●As long as the firm’s own level of output cannot affect the price of the product it sells, then 
+the firm’s marginal revenue is equal to its average revenue ➝ price-taking firm, 
+AR=MR=price 
+●Rule #1: A firm should not produce at all if, for all levels of output, total revenue (TR) is less 
+than the total variable cost (TVC). Equivalently, the firm should not produce at all if, for all 
+levels of output, the market price (P) is less than average variable cost (AVC). 
+●Shut-down Price= Lowest point of the firm’s AVC curve  
+●Rule #2: If it is worthwhile for the firm to product at all, the profit-maximizing firm should 
+produce the output at which ​marginal revenue equals marginal cost​.  
+●A profit-maximizing firm that is operating in a perfectly competitive market will produce 
+the output that equates its marginal cost of production with the market price of its product 
+(​as long as price exceeds average variable cost​).  
+ 
+----------------Page (0) Break----------------
+●Supply #1: For prices below average variable cost, the firm will supply zero units. #2: For 
+prices above the minimum of average variable cost, the competitive firm will choose its 
+level of output to equate price and marginal cost.  
+●In perfect competition, the industry supply curve is the horizontal sum of the marginal cost 
+curves (above the level of average variable cost) of all firms in the industry.  
+●When an industry is in short-run equilibrium, quantity demanded equals quantity supplied, 
+and each firm is maximizing its profits given the market price. ➝ producing and selling a 
+quantity where MC=MR 
+○Any firm may be making losses, making profits, or just breaking even 
+9.4 Long- Run Decisions 
+●Long-run average cost curve- Profits in a competitive industry are a signal for the entry of 
+new firms; the industry will expand, pushing the price down until economic​ profits fall to 
+zero​. 
+●Losses in a competitive industry are a signal for the exit of firms; the industry will contract, 
+driving the market price up until the remaining firms are just covering their total costs.  
+●The longer it takes for firms’ capital to become obsolete or too costly to operate, the longer 
+firms will remain in the industry while they are earning economic losses.  
+●The long-run equilibrium of a competitive industry occurs when firms are earning zero 
+profits.  
+●Conditions for Long-Run Equilibrium: 
+○1. Existing firms must be maximizing their profits, given their existing capital. Thus,, 
+short-run marginal costs of production must be equal to market price.  
+○2. Existing firms must not be suffering losses. If they are suffering losses, they will 
+not replace their capital and the size of the industry will decline over time.  
+○3. Existing firms must not be earning profits, if they are earning profits, then new 
+firms will enter the industry and the size of the industry will increase over time.  
+○4. Existing firms must not be able to increase their profits by changing the size of 
+their production facilities. Thus, each existing firm must be at the minimum point of 
+its ​long-run average cost (LRAC) ​curve.  
+●For a competitive firm to be ​maximizing ​its long-run profits, it must be producing at the 
+minimum point on its LRAC curve.  
+●In long-run competitive equilibrium, each firm’s average cost of production is the lowest 
+attainable, given the limits of known technology and factor prices. 
+●In industries with continuous technological improvement, low-cost plants will exist side by 
+side with older high-cost plants. The older plants will continue operating as long as their 
+revenues cover their variable costs.  
+●Response of  Firms: The antiquated equipment in a declining industry is typically the effect 
+rather than the cause of the industry’s decline.  
+●Response of Governments: Often tempted to support declining industries as worried about 
+resulting job losses.  
+ 
+----------------Page (1) Break----------------
+ 
+Chapter 10: Monopoly, Cartels, and Price Discrimination 
+10.1 A Single-Price Monopolist 
+●Monopoly: ​A market containing a single firm. The sole producer of the product that it sells.  
+●A monopolist faces a negatively sloped demand curve.  
+●A tradeoff between the price it charges and the quantity it sells. Sales can be increased only 
+if price is reduced, and price can be increased only if sales are reduced.  
+●Demand curve = average revenue curve  
+●The monopolist’s marginal revenue is less than the price at which it sells its output. Thus 
+the monopolist’s MR curve is below its demand curve.  
+●A profit-maximizing monopolist will always produce on the ​elastic ​portion of its demand 
+curve (that is, where MR is positive). 
+●The intersection of MR and MC curves determines the firm’s profit-maximizing ​quantity. 
+●Nothing guarantees that a monopolist will make positive profits in the short run, but if it 
+suffers persistent losses, it will eventually go out of business.  
+●For a profit-maximizing monopolist, price is greater than marginal cost.  
+●A monopolist does not have a supply curve because it is not a price-taker; it chooses its 
+profit-maximizing price-quantity combination from among the possible combinations on 
+the market demand curve.  
+●A monopolist restricts output below the competitive level and thus reduces the amount of 
+economic surplus generated in the market. The monopolist therefore creates an inefficient 
+market outcome.  
+●Monopolists are rare as they tend to earn very large profits, and this profitability quickly 
+attracts other firms into the industry.  
+●When a monopoly does persist, it is usually heavily regulated by government or owned 
+outright by the government.  
+●Natural entry barriers: most commonly arise as a result of (1) economies of scale - occurs 
+when the industry’s demand conditions allow no more than one firm to cover its costs while 
+producing at its minimum efficient scale  
+●(2) Limited access to key natural resources - result is that entry by new firms is difficult and 
+incumbent firms often possess market power for extended periods of time.  
+●(3) Network effects - for some products such as social media, the benefits to any individual 
+consumer depend importantly on the existence of a large network of already existing 
+consumers 
+●Entry barriers are often dodged by the innovation of production processes and the 
+development of new goods and services. Such innovation explains why monopolies rarely 
+persist over long periods.  
+●Joseph Schumpeter - creative destruction thrives on innovation, the existence of high profits 
+is a major incentive to economic growth.  
+10.2 Cartels and Monopoly Power 
+●Cartel: ​An organization of producers who agree to act as a single seller in order to maximize 
+joint profits. 
+ 
+----------------Page (2) Break----------------
+●Can agree among themselves to restrict their total output of the level that maximizes their 
+joint profits. - ex. Steel and oil industries 
+●The profit-maximizing cartelization of a competitive industry will reduce output and raise 
+price from the perfectly competitive levels.  
+●Problems: (1) Ensuring that members follow the behaviour that will maximize the cartel 
+member’ joint profits. (2) Preventing these profits from being eroded by the entry of new 
+firms. 
+●Cartels tend to be unstable because of the incentives for individual firms to violate the 
+output restrictions needed to sustain the joint-profit-maximizing (monopoly) price. 
+ 
+10.3 Price Discrimination 
+●Price Discrimination: ​The sale by one firm of different units of a product at two or more 
+different prices for reasons not associated with differences in cost.  
+●If price difference reflect cost differences, they are not discriminatory. When price 
+differences are based on different buyers’ valuations of the same product, they are 
+discriminatory.  
+●Legal for firms to charge different prices based on perceptions of consumers’ willingness to 
+pay. 
+●Price-taker: cannot discriminate because there is no power to influence the price at which it 
+sells its product 
+●If the firm is able to determine which consumers are prepared to pay a high price and which 
+are prepared to pay only a low price, the firm is able to ​segment ​the market.  
+●Arbitrage- ​when a product is sold at different prices, there is an incentive for buyers to 
+purchase the product at the low price and re-sell it at a higher price to profit 
+●Price Discrimination among ​units of output:  
+○A firm that charges different prices for different units of a product is trying to 
+capture some of this consumer surplus.  
+○Sold to the ​same​ consumer requires that the firm be able to keep track of the units 
+that a buyer consumers in each period 
+●Price Discrimination among ​market segments:  
+○More common➝ Segments may correspond to the age of consumers, or different 
+regions in which the consumers live. 
+○Sold to the ​same​ consumer requires that the firm be able to keep track of the units 
+that a buyer consumers in each period 
+●Firms need to charge a higher price in the market segment with the ​less elastic 
+demand​➝contains consumers that are more “committed” to this product than consumers 
+with a more elastic demand 
+●A firm with market power that can identify distinct market segments will maximize its 
+profits by charging higher prices in those segments with less elastic demand.  
+●Price discrimination is easier for services than for tangible goods because for most services 
+the firms transact directly with the final customer and thus can more easily prevent 
+arbitrage.  
+ 
+----------------Page (3) Break----------------
+●Hurdle pricing​ exists when firms create an obstacle that consumers must overcome in 
+order to get a lower price. Consumers then assign themselves to the various market 
+segments - those who don’t want to jump the hurdle and are willing to pay the high price, 
+and those who choose to jump the hurdle in order to benefit from the low price.  
+●Consequences: for any given level of output, price discrimination by the firm will provide 
+higher profits than the profit-maximizing single price.  
+●A profit-maximizing monopolist that price discriminates among units will produce more 
+output than will a single-price monopolist.  
+○Can sell output in separate blocks without spoiling the market for blocks that are 
+already sold, will produce every unit for which the price charged is greater than or 
+equal to its marginal cost.  
+●If price discrimination leads the firm to increase total output, the total economic surplus 
+generated in the market will increase, and the outcome will be more efficient.  
+●There is no general relationship between price discrimination and consumer welfare. Price 
+discrimination usually makes the producers better off and other consumers worse off.  
+Chapter 11: Imperfect Competition and Strategic Behaviour 
+11.1 Imperfect Competition 
+●Monopolistic competition- ​industries with many small firms, but where each firm has 
+some degree of market power 
+○Each firm also differentiates itself simply by being in a different location, which itself 
+gives it some degree of market power, unlike a perfectly competitive firm.  
+●Oligopoly- ​industries with a few large firms, each with considerable market power and 
+compete actively with each other.  
+●Concentration Ratio- ​The fraction of total market sales controlled by a specified number of 
+the industry’s largest firms. An industry with a small number of relatively large firms is said 
+to be highly ​concentrated.  
+●Firms Differentiate their Products  
+○Develop variations on existing products or even a product with a whole new 
+capability ➝  its own distinctive characteristics 
+○Differentiated product: a group of products similar enough to be called the same 
+product but dissimilar enough that they can be sold at different prices 
+○Most firms in imperfectly competitive markets sell differentiated products. In such 
+industries, the firm itself must choose its product’s characteristics.  
+●Firms Set Their Prices 
+○When different firms’ products are not identical, each firm must decide on a price. 
+○Price Setters - A firm that faces a downward-sloping demand curve for its product. It 
+chooses which price to set.  
+○In imperfect competition, most firms set their prices and then let demand determine 
+sales. Changes in market conditions are signalled to the firm  by changes in the 
+firm’s sales. 
+ 
+----------------Page (4) Break----------------
+○Prices change less frequently  ➝  costs of changing the prices include the costs of 
+printing new list prices and notifying all customers, the difficulty of keeping track of 
+frequently changing prices for accounting purposes 
+○Only after changes in demand are expected to persist will firms adjust their entire 
+list of prices.  
+ 
+Firms Engage in Non-Price Competition 
+○(1) Advertising: In an attempt to both shift the demand curve for the industry’s 
+products and to attract customers from competing firms. Some cases, a monopolist 
+will still advertise in an attempt to convince consumers to shift their spending away 
+from other types of products and toward the monopolist’s product.  
+○(2) Product Quality: Competing standards of quality and product guarantees.  
+○(3) Entry Barriers: Firms in many industries engage in activities that appear to be 
+designed to hinder the entry of new firms, thereby preventing the erosion of existing 
+profits.  
+11.2 Monopolistic Competition 
+●Industry contains many firms and exhibits freedom of entry and exit➝ firms in 
+monopolistic competition sell a differentiated product and thus have some power over 
+setting price. 
+●Differentiation leads to the establishment of brand names and advertising ➝ gives each firm 
+a degree of market power over its own product. 
+○Can raise its price, even if its competitors do not, without losing all its sales. 
+●Short-Run restriction comes from the presence of similar products sold by many competing 
+firms; very elastic. 
+●Long-Run restriction comes from free entry into the industry, which permits new firms to 
+compete away the profits being earned by existing firms. 
+ 
+The Assumptions of Monopolistic Competition: 
+○Each firm produces its own version of the industry’s differentiated product. Each 
+firm thus faces a demand curve that, although negatively sloped, is highly elastic 
+because competing firms produce many close substitutes.  
+○All firms have access to the same technological knowledge and so have the same 
+cost curves.  
+○The industry contains so many firms that each one ignores the possible reactions of 
+its many competitors when it makes its own price and output decisions. In this 
+respect, firms in monopolistic competition are similar to firms in perfect 
+competition.  
+○There is freedom of entry and exit in the industry. If profits are being earned by 
+existing firms, new firms have an incentive to enter. When they do, the demand for 
+the industry’s product must be shared among the increased number of firms.  
+●Short-Run restriction comes from the presence of similar products sold by many competing 
+firms; very elastic. 
+ 
+----------------Page (5) Break----------------
+●Long-Run restriction comes from free entry into the industry, which permits new firms to 
+compete away the profits being earned by existing firms. 
+●Profits provide an incentive for new firms to enter the industry ➝ total demand for the 
+industry’s product must be shared among this larger number of firms; each firm gets a 
+smaller share of the total market 
+●Demand curve has shifted to the left until the curve is tangent to the LRAC curve ➝still 
+maximizing its profit (MC=MR) profit is now =0 
+●Excess-Capacity Theorem: ​Long-run equilibrium in monopolistic competition that firms 
+produce on the falling portion of their LRAC ➝ excess capacity measured by the gap 
+between present output and output that coincides with minimum AC  
+●In long-run equilibrium in monopolistic competition, goods are produced at a point where 
+average total costs are not at their minimum.  
+●Excess capacity of monopolistic competition does not necessarily indicate a waste of 
+resources because benefits result to consumers who can choose among a variety of 
+products. 
+●It is the differences in preferences ​across many consumers ​that give rise to the social value of 
+variety 
+●From society’s point of view, there is a tradeoff between producing more brands to satisfy 
+diverse preferences and producing fewer brands at a lower cost per unit.  
+11.3 Oligopoly and Game Theory 
+●The firm’s marginal revenue depends importantly on what its rivals do 
+●Might leave their output levels unchanged and introduce new options in an attempt to 
+attract consumers to their products 
+●Determining the level of output that maximizes profits is complicated for an oligopolistic 
+firm because it must consider its rivals’ likely responses to its actions 
+●Strategic Behaviour ➝they take explicit account of the impact of their decisions on 
+competing firms and of the reactions they expect them to make 
+●Can either ​cooperate​ (or collude) ​in an attempt to maximize joint profits or they can ​compete 
+in an effort to maximize their individual profits. ➝ dependent on how it thinks its rivals will 
+respond to its decision 
+●Distinction between ​cooperative ​and ​non-cooperative​ ​behaviour  
+○cooperative -​ usually be worthwhile for any one of them to cut its price or to raise 
+its output, so long as the others do not do so. If every firm does the same thing, they 
+will be worse off as a group and may all be worse off individually  
+○non-cooperative outcome -  ​proceed by thinking about their own gains without 
+cooperating with other firms 
+●Typically thinks about how the other firms in the industry will react to its own decisions ➝ 
+resembles a game of strategy  
+●If each firm thinks the other will cooperate it has an incentive to cheat and produce 
+two-thirds of the monopoly output  
+●Cooperative outcome can only be achieved if the firms have some effective way to enforce 
+their output-restricting agreement 
+ 
+----------------Page (6) Break----------------
+●This type of game, in which the non-cooperative outcome makes ​both​ players worse off than 
+if they had been able to cooperate, is called ​a ​prisoners’ dilemma​.  
+●Nash Equilibrium: ​An equilibrium that results when each player is currently doing the best 
+it can, given the current behaviour of the other players. 
+○In a Nash equilibrium, each player’s best strategy is to maintain its current 
+behaviour ​given the current behaviour of the other players.  
+○The basis of a Nash equilibrium is rational decision making in the absence of 
+cooperation 
+○A self-policing equilibrium, in the sense that there is no need for group behaviour to 
+enforce it. Has self-interest to maintain it because no move will improve its profits, 
+given what other firms are currently doing.  
+○If a Nash equilibrium is established by any means whatsoever, no firm has an 
+incentive to depart from it by altering its own behaviour. 
+●Game theory can be used in other settings such as how: they charge different prices for their 
+differentiated products, and whether to develop a new product or not 
+11.4 Oligopoly in Practice  
+●Collusion: ​An agreement among sellers to act jointly in their common interest. Overt or 
+Covert, Explicit or Tacit 
+○Agree to cooperate in order to restrict output and raise prices 
+●Explicit Collusion:  
+○Easiest way for firms to ensure that they will all maintain their joint 
+profit-maximizing output is to make an explicit agreement 
+○Been illegal among privately owned firms in Canada for a long time (some 
+exceptions for firms exporting) 
+●Tacit Collusion:  
+○Behave cooperatively without any explicit agreement as each firm recognizes that 
+maximizing their joint profits is in its own interest  
+○Very difficult to prove rigorously  
+○Companies changing prices after competitive firms are seemingly coordinated 
+actions that may be the result of a secret explicit agreement or of tacit collusion 
+■Could easily argue that with their competitor raising prices, the natural 
+response is to raise their own prices 
+●Compete to attract consumers away from their rivals, increase their overall share of the 
+market, and increase their profits 
+●Consumers gain: They result in lower prices, better products or better service  
+●Major types of competitive behaviour: ​(1)​ firms with differentiated products may compete 
+by reducing their prices and hoping to attract customers away from their rivals ​(2) ​Often 
+actively engage in non-price competition, through advertising campaigns and variations in 
+product quality​ (3) ​keep a step ahead of their rivals by developing new products or by 
+making significant improvements in existing ones 
+ 
+----------------Page (7) Break----------------
+●Entry Barriers: Without significant entry barriers, new firms will enter the industry and 
+erode the profits of existing firms- discuss three important types of ​firm-created ​entry 
+barriers 
+○(1)Brand Proliferation as an Entry Barrier: ​by altering the characteristics of a 
+differentiated product, it is possible to produce a vast array of variations on the 
+general theme of that product, each with its unique identifying brand. Each firm in 
+the industry produces ​several ​brands of the differentiated product ➝ can have the 
+effect of discouraging the entry of new firms 
+○(1) The larger the number of differentiated products that are sold by existing 
+oligopolists, the smaller the market share available to a new firm that is entering 
+with a single new product. Brand proliferation therefore can be an effective entry 
+barrier. 
+○(2) ​Advertising as an Entry Barrier: ​Successful ads are usually expensive to 
+produce and can constitute a formidable entry barrier for a new producer.  
+○(2) A new entrant with small sales but large required advertising costs find itself at 
+a substantial cost disadvantage relative to its established rivals.  
+○(3) ​Predatory Pricing as an Entry Barrier: ​An existing firm can create such an 
+expectation by cutting prices below costs whenever entry occurs and keeping them 
+there until the entrant goes bankrupt. The existing firm sacrifices profits while 
+doing this, but sends a discouraging message to potential future rivals 
+○Creates ​reputation effects ​to deter the entry of new firms 
+●Oligopoly is an important market structure in modern economies because there are many 
+industries in which the minimum efficient scale is simply too large to support may 
+competing firms. The challenge to public policy is to keep oligopolists competing, rather 
+than colluding, and using their competitive energies to improve products and to reduce 
+costs, rather than merely to erect entry barriers.  
+ 
+Chapter 12: Economic Efficiency and Public Policy 
+12.1 Productive and Allocative Efficiency 
+●Factors of production must be fully employed, as idle resources represent an opportunity 
+cost in terms of output that could otherwise be produced 
+●Three Examples of inefficiency in the use of full employed resources: 
+○Any firm that does not use the least-cost method of producing its chosen outputs is 
+being inefficient - considers the cost for a single firm producing some level of output 
+productive efficiency 
+○If the marginal cost of production is not the same for every firm in an industry, the 
+industry is being inefficient - focus is on the total cost for all the firms in an industry 
+- ​productive efficiency for the industry 
+○If too much of one product and too little of another product are produced, the 
+economy ​overall is being inefficient - level of output of one product compared with 
+another - ​allocative efficiency 
+●Productive Efficiency:  
+ 
+----------------Page (8) Break----------------
+○Has 2 aspects: one concerning production within each firm and one concerning the 
+allocation of production among the firms in an industry 
+○Short run- firm merely uses enough of the variable factors to produce the desired 
+level of output 
+○Long-run- different methods of production are available 
+○Productive efficiency for the firm requires the firm to be producing its output 
+at the lowest possible cost. 
+○Firm that is not being productively efficient is producing at a higher cost than is 
+necessary and thus will have lower profits than it could have.  
+○Productive efficiency for the industry ​is producing a given level of output at the 
+lowest possible cost. Can be reduced by reallocating production among the 
+industry’s firms. 
+○Productive efficiency for the industry requires that the marginal cost of 
+production be the same for each firm. 
+○If firms and industries are productively efficient, the economy will be on, rather than 
+inside, the production possibilities boundary. 
+●Allocative Efficiency: 
+○When allocatively efficient, the economy is ​Pareto efficient 
+○The economy is allocatively efficient when, for each good produced, its 
+marginal cost of production is equal to its marginal value in consumption (as 
+given by the market price) 
+Market Structures Efficiency: 
+●Perfect Competition:  
+○Producing at the lowest point on its LRAC curve, every profit-maximizing firm is 
+productively efficient.  
+○Firms face the same market price and equate their own marginal cost to that price 
+➝ marginal cost is equated across all firms. ​Productively Efficient 
+○Price would be equal to marginal cost in each industry, resulting in ​allocative 
+efficiency​ across the entire economy.  
+●Monopoly 
+○Profits will be maximized when it adopts the lowest-cost production method ➝ will 
+operate on its LRAC curve be ​Productively Efficient 
+○Firms sell differentiated products and there is no single industry-wide price​ ​➝ 
+impossible to conclude​ that marginal costs will be equated across all firms 
+○Profit-maximizing monopolist, price is greater than marginal cost ➝ monopoly is 
+not allocatively efficient 
+●Monopolistic Competition and Oligopoly 
+○Maximize their profits when they adopt the lowest-cost method of product 
+➝therefore ​productively efficient 
+○Firms sell differentiated products and there is no single industry-wide price​ ​➝ 
+impossible to conclude​ that marginal costs will be equated across all firms 
+○Both market structures are ​not allocatively efficient. ​Oligopoly Firms sell 
+differentiated products and there is no single industry-wide price​ ​➝​ ​some 
+ 
+----------------Page (9) Break----------------
+situations where rivalry between firms drives price​ ​toward ​marginal cost, 
+improving efficiency 
+ 
+●For each unit sold, producer surplus is the difference between price and marginal cost  
+●Allocative efficiency of perfect competition: Occurs at the level of output where the sum of 
+consumer and producer surplus is maximized 
+○Consumers value an extra unit of the product ​less ​t​han it costs to produce it 
+○Producers would earn ​negative ​producer surplus on the units about equilibrium 
+quantity because the marginal cost of those units excess price of equilibrium 
+○Consumers would earn ​negative ​consumer surplus on the units above equilibrium 
+quantity because their marginal value of the product is less than equilibrium price. 
+○The sum of producer and consumer surplus is maximized only at the perfectly 
+competitive level of output. This is the only level of output that is allocatively 
+efficient.  
+●Allocative Efficiency of Monopoly: 
+○When the monopolist chooses an output below the competitive level, market price is 
+higher than it would be under perfect competition 
+○Consumer surplus is diminished, and producer surplus is increased➝ monopolist 
+gains at the expense of consumers 
+○More surplus is lost by consumers than is gained by the monopolist 
+○Loss of surplus is called the ​deadweight loss of monopoly 
+●There is a conflict between the private interest of the monopolist and the public interest of 
+all the nation’s consumers ➝ creates grounds for government intervention 
+●Market failures exist in many parts of the economy. One of the most important issues in 
+public policy is determining the circumstances in which government action can increase 
+allocative efficiency in the situations.  
+ 
+12.2 Economic Regulation to Promote Efficiency 
+●Competition policy ​(also known as ​anti-trust​ policy in the United States)  
+●Crate more competition market structures where possible, to discourage monopolistic 
+practice and encourage competitive behaviour where competitive market structures cannot 
+be established.  
+●Regulations are used by governments to address the allocative inefficiency used by various 
+kinds of market failures 
+●Competition policy is used to promote allocative efficiency by increasing competition in the 
+marketplace 
+●Crown corporations: ​In Canada, businesses owned by the federal or provincial 
+government. 
+○Government to assume ownership of the single firm 
+○Government appoints managers and directors who are supposed to set prices in the 
+public interest rather than to maximize profits for the firm 
+●Can allow private ownership but ​regulate ​the monopolist’s behaviour 
+ 
+----------------Page (10) Break----------------
+●Pricing policy is determined by the government or its appointed agents 
+●Short-Run Price and Output- 3 general types of pricing policies exist  
+○1. Marginal-Cost pricing: ​where the market demand curve and the firm’s marginal 
+cost intersect  
+○Sets up a tension between the regulator’s desire to achieve the allocatively efficient 
+level of output and the firm’s desire to maximize profits 
+○When a natural monopoly with falling average costs sets price equal to marginal 
+cost, it will suffer losses.  
+○If regulations impose marginal-cost pricing, ad the firm ends up incurring economic 
+losses, this situation cannot be sustained for long 
+ 
+○2. Two-Part Tariff:​ Charge a ​two-part tariff ​in which customers pay one price to 
+gain access to the product and a second price for each unit consumed 
+○Permits the natural monopoly to cover this costs  
+ 
+○3. Average-Cost Pricing: ​Set prices just high enough to cover average costs, thus 
+generating neither profits nor losses 
+○Firm Sets a price and produces the level of output at which the demand curve cuts 
+the LRAC curve 
+○Requires producing at less than the allocatively efficient output 
+○For a natural monopoly with falling average costs, a policy of average-cost pricing 
+will not result in allocative efficiency because price exceeds marginal cost 
+ 
+●Marginal-cost pricing generates allocative efficiency, but the firm incurs losses 
+●If the government is unwilling to cover the firm’s losses the average-cost pricing may be 
+preferable 
+●Provides the lowest price that can be charged and the largest output that can be produced 
+as revenue must cover the total cost of producing the product 
+●Long-Run Investment 
+○Since marginal cost for a natural monopoly is below average cost, average-cost 
+pricing will generally lead to inefficient patterns of long-run investment 
+○The price in this case must exceed the marginal cost (because marginal cost must be 
+below average cost if average cost is falling) 
+○Society would benefit by having a larger amount of fixed capital allocated to 
+producing this good.  
+○Government-owned natural monopoly may be prepared to make such investments 
+to protect society’s overall interests 
+○A regulated privately owned firm has little or no financial incentive to undertake 
+investment if it will only break even  
+○Socially desirable investment will not likely occur when the fir is required to use 
+average-cost pricing 
+○For natural monopolies, average-cost pricing often leads to inefficient long-run 
+investment decisions, with too little capital being built. 
+ 
+----------------Page (11) Break----------------
+●Very Long-Run Innovation 
+○Technological developments have made activities highly competitive but companies 
+such as Canada Post still have a legislated monopoly over delivery of first class mall, 
+but this segment of the overall delivery market is now much smaller than it once 
+was.  
+●Problems with Regulations 
+○Many practical problems arise with regulations designed to prevent natural 
+monopolies from charging profit-maximizing prices. 
+○Regulators usually do not have enough data to determine demand and cost curves 
+precisely 
+○Absence of accurate data, regulators have tended to judge prices according to the 
+level of the regulated firm’s profits 
+○Price regulation becomes instead profit regulation, which is often called 
+rate-of-return regulation​➝ marginal cost and allocative efficiency are often ignored 
+in such regulatory decisions 
+○Profits can be zero for any number of reasons ➝ inefficient operation, excessive 
+salaries or employee benefits, and misleading accounting 
+○Regulatory commissions that rely on rate of return as their guide to pricing must 
+monitor a number of other aspects of the regulated firm’s behaviour in order to limit 
+the possibility of wasting resources.  
+ 
+12.3 Canadian Competition Policy 
+●Competition Policy- ​Policy designed to prohibit the acquisition and exercise of monopoly 
+power by business firms 
+●Designed to create conditions of competition by preventing firms from merging 
+unnecessarily or from engaging in anti-competitive practice, such as colluding to set 
+monopoly prices.  
+●Competition Bureau is obliged to consider such things as effective competition after the 
+merger, the degree of foreign competition, barriers to entry, the availability of substitutes, 
+and the financial state of the merging firms 
+●Challenge is to prevent those mergers that mostly lead to less competition, producing only 
+small cost reductions, but to allow those mergers that mostly lead to cost reductions, with 
+only small reductions in competition.  
+●Reforms of 2009: 
+○Increase the penalties for deceptive marketing and empower the courts to award 
+restitution to victims of false advertising 
+○Create a more effective mechanism for the criminal prosecution of significant cartel 
+agreements 
+○Introduce a two-state merger review process to improve efficiency and effectiveness  
+○Allow the Competition Tribunal to assign monetary penalties to companies who 
+abuse a dominant position in the marketplace 
+●Future challenges: 
+ 
+----------------Page (12) Break----------------
+○As the flow of goods and services across national boundaries increases, it becomes 
+more important to define markets on an international rather than a national basis 
+○Globalization is the desirability of standardizing competition policy across countries. 
+Firms that are mobile and have considerable market power may tend to locate their 
+firms where competition policy is the most lax, exporting into other countries 
+○So firms choose locations on the basis of economic rather than legal forces 
+○Growing importance of firms’ use of digital platforms and their access to data 
+○Analyzing “big data” to learn about their consumers and their preferences, 
+information that can lead to creative and profitable systems of price discrimination 
+to learn about emerging bsuiness rivals 
+○How much information and what types of information pose the most significant 
+threats to competition, and how firms’ anti-competitive behaviour can be reduced 
+while maintaining the consumer benefits stemming from the innovative products 
+and services 
+Chapter 16: Market Failures and Government Intervention 
+16.1 Basic Functions of Government 
+●The function that has not changed is to provide what is called a ​monopoly of violence ​- 
+violent acts can be conducted by the military and civilian police arms of government 
+●Dangerous monopoly that is easily abused - which is why stable and well-functioning 
+societies have systems of checks and balances designed to keep the government’s monopoly 
+directed to the general good 
+○Poor societies have organized crime with substantial power to commit violence that 
+government cannot control 
+●The importance of having checks on the government’s arbitrary use of its monopoly is seen 
+in the disasters that ensue in the many dictatorships that misuse their power.  
+●When the government’s monopoly of violence is secure and functions with effective 
+restrictions against its arbitrary use, citizens can safely carry out their ordinary economic 
+and social activities. 
+●Related government activity is to provide security of property and enforce property rights 
+that give people a secure claim to the fruits of their own labour. 
+●The challenges in developing countries such as local corruption, powerful warlords, and a 
+lack of basic political infrastructure combine to make official development aid less effective 
+that stem from their ineffective political structures.  
+●A growing share of official assistance to developing countries is taking the form of ​political 
+rather than ​economic ​assistance - a process often referred to as ​institution building 
+ 
+16.2 The Case for Free Markets 
+●Consumers’ preferences and producers’ costs lead to demand and supply decisions that 
+generate price signals 
+●Firms compete to get ahead of each other by producing better goods more cheaply, generate 
+the technological changes that have raised average living standards fairly steadily  
+●2 quite different approaches:  
+ 
+----------------Page (13) Break----------------
+○1. characterized as the “formal defence” and is based on the concept of allocative 
+efficiency  
+○2. “Informal defence” of free markets is based on 3 central arguments 
+■Provide ​automatic coordination ​of the actions of decentralized decision 
+makers 
+■The pursuit of profits in free markets provides a stimulus to ​innovation and 
+growth ​of material living standards 
+■Permit a ​decentralization of economic power 
+●Flexibility can be contrasted with centralized control, which would force the same pattern 
+on everyone as government quotas, allocations, and rationing schemes are much more 
+difficult to adjust 
+○Likely to be shortages and surpluses before adjustments are made 
+○A free market provides automatic signals ​as a situation develops ​so that not all of the 
+consequences of an economic change have to be anticipated and allowed  
+●A market system allows for coordination ​with-out anyone needing to understand how the 
+whole system works 
+●Planners in more centralized systems have to guess which innovations will be productive 
+and which goods will be strongly demanded 
+●Biggest failure of centrally planned economies was their inability to encourage 
+experimentation and innovation that have proven to be the driving forces behind long-run 
+growth in advanced market economies. 
+●Tends to decentralize power and thus requires less coercion of individuals than any other 
+type of economy 
+●Defenders of the free market, even such concentrations of private power are far less 
+substantial than government power 
+●Not only will coercion be regarded as arbitrary, but the power also creates major 
+opportunities for bribery, corruption, and allocation according the preferences of the 
+central administrators 
+●Markets tend to diffuse power, they do not do so completely; large firms and large labour 
+unions clearly have and exercise substantial economic power 
+ 
+16.3 Market Failures 
+●Market Failure: ​failure of the market economy to achieve an efficient allocation of 
+resources 
+●Market failure describes a situation in which the free market, in the absence of government 
+intervention, fails to achieve allocative efficiency 
+●Conflict between achieving allocative efficiency at any given moment and encouraging 
+economic growth ➝ innovation and productivity growth comes from firms with market 
+power 
+●Externality: ​An effect on parties not directly involved in the production or use of a 
+commodity.  
+●Importance of the distinction between ​private cost ​and ​social cost.  
+ 
+----------------Page (14) Break----------------
+○Private cost: ​measures the cost faced by the private producer, including production 
+costs, advertising costs etc 
+○Social cost: ​The private cost (since the producer is a member of society) but also 
+includes any other costs imposed on third parties. 
+○Private benefit: ​The benefits received by the consumer from using the product 
+○Social benefit: ​The private benefits plus whatever benefits accrue to third parties 
+●Discrepancies between private cost and social cost, or between private benefit and social 
+benefit, occur when there are externalities. The presence of externalities, even when all 
+markets are perfectly competitive, leads to allocatively inefficient outcomes 
+●When there is an externality, either too much or too little of the good is produced 
+●Allocative efficiency requires that production and consumption take place where ​social 
+marginal benefits are equal to ​social ​marginal costs.  
+●With a positive externality, a competitive free market will produce too little of the good. 
+With a negative externality, a competitive free market will produce too much of the good.  
+●Negative externality ➝ implement a tax on the firms or consumers; Positive externality ➝ a 
+subsidy  
+●Rivalrous: ​One person’s consumption of one unit of the good means that no one else can 
+also consume that same unit 
+●Excludable: ​People can be prevented from consuming it 
+○Private Goods:​ Goods that are both rivalrous and excludable - private goods - pose 
+no particular problem for public policy 
+○Common-Property Resources: ​Rivalrous but non-excludable; no one person or 
+firm “owns” these resources, there is no incentive for any one user to prevent its 
+overuse or depletion ➝ “tragedy of the commons” 
+■Zero price leads to the obvious result that in the absence of government 
+intervention, private users will tend to use the common-property resources 
+until their marginal benefit reaches zero 
+■Since the marginal cost will then exceed the marginal benefit the resource is 
+being ​overused​; society would be better off if ​less ​of the resource was used 
+■Common-property resources tend to be overused by private firms and 
+consumers 
+○Excludable but Non-Rivalrous Goods: ​Called ​club goods 
+■Marginal cost of providing the good to one extra person is zero 
+■As long as their marginal benefit exceeds the social marginal cost of 
+providing the good, it is efficient for these people to use the good.  
+■National parks and art galleries, governments are often led to charge a price 
+to help cover some of the operating costs (even though the marginal cost of 
+use is very close to zero). 
+■To avoid inefficient exclusion, the government often provides goods that are 
+non-rivalrous but excludable. 
+■Problem: ​congestion​➝​ ​it is no longer true that the marginal cost of providing 
+a club good to one more user is zero 
+ 
+----------------Page (15) Break----------------
+■A good that is non-rivalrous when uncongested becomes rivalrous when 
+congested 
+○Public Goods: ​Some goods are neither excludable nor rivalrous. ➝​collective 
+consumption goods 
+■Raise what is called the ​free-rider ​problem since public goods are not 
+excludable, it is impossible to prevent anyone from using them once they are 
+provided 
+■Because of the free-rider problem, private markets will usually not provide 
+public goods. In such situations, public goods must be provided by 
+government. 
+■Should provide the public good up to the point at which the ​sum ​of 
+everyone’s individual marginal benefit form the good is just equal to the 
+marginal cost of providing the good 
+■The optimal quantity of a public good is such that the marginal cost of the 
+good equals the ​sum ​of all users’ marginal benefit of the good.  
+●Moral Hazard: ​when one party to a transaction has both the ​incentive ​and the ​ability ​to 
+behave in a way that shifts costs onto the other party 
+○The market failure arises because the action by the insured individual or firm raises 
+total costs for society 
+○One party of the transaction has special knowledge that he or she could use to 
+change the nature of the transaction in his or her favour ➝ codes of professional 
+ethics and licensing and certification practices are reactions to this 
+●Adverse Selection: ​the tendency for people who are more at risk than the average to 
+purchase insurance and for those who are less at risk than the average to reject insurance 
+○Resources are allocated inefficiently because the marginal private benefit of 
+purchasing insurance is not equal to the marginal cost of providing it 
+●Summary: 
+○1. Firms with market power will generally charge a price greater than marginal cost. 
+The level of output in these cases is less than the allocatively efficient level.  
+○2. When there are externalities, either social and private marginal costs are not 
+equal or social and private marginal benefits are not equal. If there is a negative 
+externality, output will be greater than the allocatively efficient level. If there is a 
+positive externality, output will be less than the allocatively efficient level.  
+○3. Common-property resources will be overused by private firms and consumers. 
+Public goods will be underprovided by private markets.  
+○4. Situations in which there is asymmetric information - both moral hazard and 
+adverse selection - can lead to allocative efficiency  
+ 
+16.4 Broader Social Goals 
+●Even in the absence of market failures, the government may choose to intervene in markets 
+to achieve broader social goals. 
+●Temporary differentials, caused by changes in demand or supply in specific industries or 
+regions, will eventually be eliminated by the mobility of workers.  
+ 
+----------------Page (16) Break----------------
+●Equilibrium differentials will persist, whether they are created by differences in 
+non-monetary aspects of the job or by differences in human capital or acquired or inherited 
+skills. 
+●Private charities and a great many government policies are concerned with modifying the 
+distribution of income that results from such things as where one starts, how able one is, 
+how lucky one is, and how one fares in the labour market 
+●A more equitable distribution of income often conflicts with the goal of allocative efficiency. 
+●Paternalism: ​Intervention in the free choices of individuals by others (including 
+governments) to protect them against what is presumed to be their own ignorance or folly. 
+○Whether such actions reflect the wishes of the majority in society or whether they 
+reflect the actions of overbearing governments, there is no doubt that the market 
+will not provide this kind of protection. 
+●Even if free markets generated allocatively efficient outcomes, they would be unlikely to 
+generate outcomes consistent with most people’s social goals. Furthermore, there is often a 
+tradeoff between achieving these social goals and increasing allocative efficiency.  
+16.5 Government Intervention 
+●Cost-benefit analysis: ​An approach for evaluating the desirability of a given policy, based 
+on comparing total (opportunity) costs with total benefits 
+●Add up the total costs associated with a given policy, then add up the benefits, and 
+implement the policy only if the benefits outweigh the costs 
+●It is difficult for 3 reasons: 
+○May be difficult to ascertain what will happen when an action is undertaken 
+○Many government actions involve costs and benefits that will occur only in the 
+distant future 
+○Some benefits and costs are difficult to quantify 
+●Tools for the government to alter the workings of the unrestricted market economy: 
+○Public Provision: ​Examples of goods or services that are provided by the 
+governments in Canada ➝ most obvious remedy for market failure to provide public 
+goods/used to redistribute other social goals 
+○Redistribution Programs: ​Taxes and government spending are often used to alter 
+the distribution of income generated by the free market. Government ​transfer 
+programs affect the distribution of income in this way 
+○Regulation: ​Government regulations are public rules that apply to private 
+behaviour ➝ used to deal with all of the sources of market failure  
+●Government intervention is costly; generally imperfect and often fails; the decision process 
+regarding what action to take is costly and imperfect 
+●Direct Costs: ​All forms of government intervention use real resources and hence impost 
+direct costs 
+●Indirect Costs: ​3 examples 
+○Changes in Costs of Production - ​government safety and emission standards for 
+cars raise the costs of both producing and operating cars ➝ costs are much greater 
+than the direct financial costs of administering the regulations 
+ 
+----------------Page (17) Break----------------
+○Costs of Compliance - ​Government regulation and supervision generate a flood of 
+reporting and related activities, ​red tape; ​hours of business time devoted to 
+understanding, reporting, and contesting regulatory provisions is enormous 
+○Indirect costs of government intervention are substantial but difficult to measure 
+and are usually dispersed across a large number of firms and households 
+○Rent Seeking - ​Behaviour whereby private firms and individuals try to use the 
+powers of the government to enhance their own economic well-being in ways that 
+are not in the social interest.  
+○Private firms, households, and business group can use political influence to seek 
+economic ​rents from the government that ​impose costs on society as a whole 
+○Government has power to act in ways that transfer resources among private entities 
+➝ are democratic, they are responsive to public pressures 
+○Private firms and special-interest groups often lobby governments for policies in 
+their own interest but at the expense of the public interest. Such rent-seeking can 
+impose significant costs on society. 
+●Public Choice Theory: ​Elected officials seek to maximize their votes. Civil servants seek to 
+maximize their salaries and their influence. Voters seek to maximize their own utility.  
+●Evaluating the costs and benefits of government intervention requires a comparison of the 
+free-market system as it ​actually ​works with the patter of government intervention as it 
+actually​ performs 
+ 
+ 
+ 
+ 
+ 
+ 
+----------------Page (18) Break----------------
