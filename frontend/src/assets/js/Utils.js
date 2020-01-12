@@ -1,3 +1,5 @@
+import $ from 'jquery'
+
 class Utils {
 
     static isEmptyString(str) {
@@ -6,8 +8,21 @@ class Utils {
 
     static getRandomNumber() { return Math.floor(Math.random() * 10000) }
 
-    static isAuth() {
+    static getUser() {
+        const endpoint = 'http://10.19.130.163:5000/user'
+        $.get({
+            url: endpoint,
+            success: res => {
+                console.log(res)
+            }
+        })
         return false
+    }
+
+    static logout() {
+        window.localStorage.clear();
+        window.sessionStorage.clear()
+        window.location.reload(true);
     }
 
     static get ERROR_MESSAGE() { return "Error processing request. Please contact admin." }
@@ -38,7 +53,9 @@ class Utils {
             try {
                 return fetch(this.api_address + endpoint, {
                     signal: Utils.Request.abortController.signal,
-                    headers: this.headers
+                    mode: 'no-cors',
+                    headers: this.headers,
+                    credentials: 'same-origin'
                 });
             } catch (err) {
                 alert(Utils.ERROR_MESSAGE + err)
