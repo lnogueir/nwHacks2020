@@ -1,5 +1,8 @@
 const router = require('express').Router()
+let Course = require('../models/course.model');
+let Lecture = require('../models/lecture.model');
 let Note = require('../models/note.model');
+let User = require('../models/user.model')
 
 //Note get request
 router.route('/:id').get( (req, res) => {

@@ -1,19 +1,17 @@
 //==============================================
-//Dependencies
+//Dependencies and Models
 //==============================================
 const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
+var flash = require('express-flash')
 
-require('dotenv').config();
-
-//==============================================
-//Setup app and port
-//==============================================
 const app = express();
 const port = process.env.PORT || 5000;
+require('dotenv').config();
 app.use(cors());
 app.use(express.json());
+app.use(flash());
 
 //==============================================
 //Connect to the database
@@ -29,9 +27,6 @@ connection.once('open', () => {
 //==============================================
 //Passport Configuration
 //==============================================
-var flash = require('express-flash')
-app.use(flash());
-
 let User = require('./models/user.model')
 const passport = require('passport');
 const LocalStrategy = require('passport-local');

@@ -1,5 +1,8 @@
 const router = require('express').Router()
 let Course = require('../models/course.model');
+let Lecture = require('../models/lecture.model');
+let Note = require('../models/note.model');
+let User = require('../models/user.model')
 
 //Course get request
 //Returns: the course data of the course with the given id
