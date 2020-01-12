@@ -34,13 +34,14 @@ function SignIn(props) {
             if (response.status === 200) {
                 response.json()
                     .then(response => {
-                        console.log(response)
                         Swal.fire({
                             showConfirmButton: false,
                             timer: 1500,
                             icon: 'success',
                             title: 'Account Status',
                             text: 'Your account has been successfully created!'
+                        }).then(() => {
+                            window.location.reload(true);
                         })
                     })
             } else {

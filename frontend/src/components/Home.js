@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import LOGO from '../assets/images/logo.png'
 import Sign from './Sign/Sign'
 import Overlay from './Overlay.js'
-import Utils from '../assets/js/Utils'
 import Navbar from './Navbar/Navbar'
 
 
@@ -27,7 +26,7 @@ function Home(props) {
                     isSignUp ? <Sign.Up toggleSignIn={toggleSignIn} /> : null}
             </Overlay>
             {
-                Utils.isAuth() ?
+                props.user ?
                     <Navbar.LoggedIn />
                     :
                     <Navbar.LoggedOut
@@ -46,10 +45,10 @@ function Home(props) {
                         Share and merge notes with your classmates!
                     </p>
                     <div className="home-main-buttons">
-                        <button onClick={props.toggleSignIn}>
+                        <button onClick={toggleSignIn}>
                             Learn More
                         </button>
-                        <button onClick={props.toggleSignIn}>
+                        <button>
                             Get Started
                         </button>
                     </div>

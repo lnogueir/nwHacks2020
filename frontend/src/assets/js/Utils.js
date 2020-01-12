@@ -1,20 +1,28 @@
-class Utils {
+const axios = require('axios');
 
+class Utils {
     static isEmptyString(str) {
         return typeof str === 'undefined' || str == null || str.trim() === '' || str === undefined
     }
 
     static getRandomNumber() { return Math.floor(Math.random() * 10000) }
 
-    static isAuth() {
-        return false
+    static getUser() {
+        const endpoint = 'http://localhost:5000/user';
+        axios.get(endpoint).then(e => console.log(e));
+    }
+
+    static logout() {
+        window.localStorage.clear();
+        window.sessionStorage.clear()
+        window.location.reload(true);
     }
 
     static get ERROR_MESSAGE() { return "Error processing request. Please contact admin." }
 
     static Request = class {
         static abortController = null
-        constructor(NOT_JSON = false, api_address = 'http://10.19.130.163:5000') {
+        constructor(NOT_JSON = false, api_address = 'http://localhost:5000') {
             this.headers = NOT_JSON ? {} : { 'Content-Type': 'application/json' }
             this.api_address = api_address
         }
@@ -38,7 +46,7 @@ class Utils {
             try {
                 return fetch(this.api_address + endpoint, {
                     signal: Utils.Request.abortController.signal,
-                    headers: this.headers
+                    headers: this.headers,
                 });
             } catch (err) {
                 alert(Utils.ERROR_MESSAGE + err)
