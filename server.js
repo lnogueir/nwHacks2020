@@ -140,8 +140,11 @@ app.get('/user/logout', (req, res) => {
 
 //User Get Request
 //Returns 
-app.get('/user/:id', (req, res) => {
-    User.findById(req.params.id)
+app.get('/user', (req, res) => {
+    if (!req.user) {
+        res.status(401).json("Not logged in");
+    }
+    User.findOne( {'username': req.user.username } )
         .then(e => {res.json(e)})
         .catch(err => res.status(400).json('Error: ' + err));
 })
