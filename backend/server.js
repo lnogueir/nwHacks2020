@@ -27,6 +27,7 @@ app.use('/course', courseRouter);
 app.use('/lecture', lectureRouter);
 app.use('/note', noteRouter);
 app.use('/user', userRouter);
+app.use('/file', fileRouter);
 
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
