@@ -14,11 +14,8 @@ class Utils {
         
         const endpoint = 'http://10.19.130.163:5000/user'
         req.GET(endpoint).then(res=>{
-            console.log(res)
-        }
-        // axios.get(endpoint).then(res => {
-            
-        // })
+            console.log(res);
+        })
     }
 
     static logout() {
