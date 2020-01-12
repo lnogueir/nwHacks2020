@@ -4,14 +4,14 @@
 const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
-var flash = require('express-flash')
+const path = require('path');
 
 const app = express();
 const port = process.env.PORT || 5000;
 require('dotenv').config();
 app.use(cors());
 app.use(express.json());
-app.use(flash());
+app.use(express.static(path.join(__dirname, '../', 'frontend', 'build')));
 
 //==============================================
 //Connect to the database
@@ -56,7 +56,6 @@ const multer = require('multer');
 const GridFsStorage = require('multer-gridfs-storage')
 const Grid = require('gridfs-stream');
 const methodOverride = require('method-override');
-const path = require('path');
 
 app.use(methodOverride('_method'));
 
@@ -119,6 +118,16 @@ app.post('/user/login', passport.authenticate("local"), (req, res) => {
         .then(e => {res.json(e)})
         .catch(err => res.status(400).json('Error: ' + err));
     console.log(`User ${req.user.username} has logged in.`);
+})
+
+//User authentication check
+app.get('/user/check', (req, res) => {
+    if (req.user) {
+        res.status(200).json({"message": "user is authenticated"});
+    }
+    else {
+        res.status(400).json({"message": "user not authenticated"});
+    }
 })
 
 //User Logout Request
@@ -201,6 +210,10 @@ const noteRouter = require('./routes/note');
 app.use('/course', courseRouter);
 app.use('/lecture', lectureRouter);
 app.use('/note', noteRouter);
+
+app.get('/app', (req, res) => {
+    res.sendFile(path.join(__dirname, '../', 'frontend', 'build', 'index.html'))
+});
 
 //==============================================
 //Start the app!
