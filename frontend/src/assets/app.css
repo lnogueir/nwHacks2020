@@ -314,16 +314,34 @@ input{
   background-color: #FFCE70; 
 }
 
+.side-bar-add-icon{
+  color: #494F55;
+  position: relative;
+  top: 3px;
+  cursor: pointer;
+  right: 10px;
+}
+
+.side-bar-add-icon2{
+  left: 10px;
+  color: #494F55;
+  position: relative;
+  top: 3px;
+  cursor: pointer;
+}
+
 .side-bar-title{
   margin-left: 10px;
   margin-bottom: 10px;
+  display:flex;
+  justify-content: space-between;
   font-weight: 900;
   font-size: calc(1.5em + .5vw);
 }
 
 .side-bar-lectures-title{
   position: relative;
-  left: 25px;
+  left: 40px;
   font-weight: 900;
   font-size: calc(.9em + .5vw);
 }
@@ -338,6 +356,11 @@ input{
   padding: 10px 0;
   cursor: pointer;
   width: 100%;
+}
+
+.side-bar-lecture > span {
+  position: relative;
+  left: 60px;
 }
 
 .side-bar-lecture:hover{
