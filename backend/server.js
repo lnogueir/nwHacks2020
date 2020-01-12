@@ -27,6 +27,9 @@ connection.once('open', () => {
 //==============================================
 //Passport Configuration
 //==============================================
+let Course = require('./models/course.model');
+let Lecture = require('./models/lecture.model');
+let Note = require('./models/note.model');
 let User = require('./models/user.model')
 const passport = require('passport');
 const LocalStrategy = require('passport-local');
@@ -128,18 +131,36 @@ app.get('/user/:id', (req, res) => {
 //==============================================
 //File upload routing
 //==============================================
-app.post('/note/upload', upload.array('file'), (req, res) => {
-    res.json({file: req.files});
-})
+app.post('/lecture/upload', upload.array('file'), (req, res) => {
+    req.files.map(elt => {
+        let filename = elt.filename;
+        let filetype = elt.contentType;
+        let author = req.user.username;
 
-app.get('/note/notes', (req, res) => {
-    gfs.files.find().toArray( (err, files) => {
-        if(!files || files.length == 0) {
-            return res.status(404).json({
-                err: 'No files'
+        let newNote = Note({
+            filename,
+            filetype,
+            author
+        })
+
+        newNote.save()
+            .catch(err => res.status(400).json('Error: ' + err));
+
+        Note.findOne({
+            'filename': filename,
+            'filetype': filetype,
+            'author': author
+        })
+            .then(note => {
+                User.findOne( { 'username': req.user.username } )
+                .then(user => {
+                    console.log(user);
+                    user.notes.push(filename)
+                    user.save()
+                        .then(() => res.json('File Uploaded!'))
+                        .catch(err => res.status(400).json('Error: ' + err));
+                })
             })
-        }
-        return(res.json(files));
     })
 })
 
