@@ -1,9 +1,3 @@
-<<<<<<< Updated upstream
-import $ from 'jquery';
-import axios from 'axios';
-
-=======
->>>>>>> Stashed changes
 class Utils {
     static isEmptyString(str) {
         return typeof str === 'undefined' || str == null || str.trim() === '' || str === undefined
@@ -12,19 +6,10 @@ class Utils {
     static getRandomNumber() { return Math.floor(Math.random() * 10000) }
 
     static getUser() {
-<<<<<<< Updated upstream
-        let req = new Utils.Request()
-        
-        const endpoint = 'http://10.19.130.163:5000/user'
-        req.GET(endpoint).then(res=>{
-            console.log(res);
-        })
-=======
-        var req = new Utils.Request()
-        const endpoint = '/user'
-        const response = req.GET(endpoint)
-        return response.status === 200 ? response.json() : null
->>>>>>> Stashed changes
+        // var req = new Utils.Request()
+        // const endpoint = '/user'
+        // const response = req.GET(endpoint)
+        return true
     }
 
     static logout() {

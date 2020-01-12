@@ -6,7 +6,7 @@ function LoggedIn(props) {
     return (
         <header className="navbar">
             <Link to={'/'}>
-                <div className="navbar-logo">
+                <div className="navbar-logo navbar-logo-loggedin">
                     <img alt="Logo" src={LOGO} />
                     <span className="logo-text">weNote</span>
                 </div>

@@ -13,7 +13,6 @@ function App() {
 
   useEffect(() => {
     let user = Utils.getUser()
-    console.log(user)
     setUser(user)
   }, [])
 
