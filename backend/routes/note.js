@@ -17,23 +17,4 @@ router.route('/:id').delete( (req, res) => {
         .catch(err => res.status(400).json('Error: ' + err));
 });
 
-//Note add request
-//Performs: an addition of a note with the given details
-//Returns: a confirmation
-router.route('/add').post((req, res) => {
-    const format = "pdf";
-    const authorId = req.body.authorId;
-    const data = "some content";
-
-    const newNote = new Note({
-        format,
-        authorId,
-        data,
-    });
-
-    newNote.save()
-        .then(() => res.json('Note Added!'))
-        .catch(err => res.status(400).json('Error: ' + err));
-});
-
 module.exports = router;
