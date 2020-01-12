@@ -1,8 +1,10 @@
+<<<<<<< Updated upstream
 import $ from 'jquery';
 import axios from 'axios';
 
+=======
+>>>>>>> Stashed changes
 class Utils {
-
     static isEmptyString(str) {
         return typeof str === 'undefined' || str == null || str.trim() === '' || str === undefined
     }
@@ -10,12 +12,19 @@ class Utils {
     static getRandomNumber() { return Math.floor(Math.random() * 10000) }
 
     static getUser() {
+<<<<<<< Updated upstream
         let req = new Utils.Request()
         
         const endpoint = 'http://10.19.130.163:5000/user'
         req.GET(endpoint).then(res=>{
             console.log(res);
         })
+=======
+        var req = new Utils.Request()
+        const endpoint = '/user'
+        const response = req.GET(endpoint)
+        return response.status === 200 ? response.json() : null
+>>>>>>> Stashed changes
     }
 
     static logout() {
@@ -28,7 +37,7 @@ class Utils {
 
     static Request = class {
         static abortController = null
-        constructor(NOT_JSON = false, api_address = 'http://10.19.130.163:5000') {
+        constructor(NOT_JSON = false, api_address = 'http://localhost:5000') {
             this.headers = NOT_JSON ? {} : { 'Content-Type': 'application/json' }
             this.api_address = api_address
         }
@@ -52,9 +61,7 @@ class Utils {
             try {
                 return fetch(this.api_address + endpoint, {
                     signal: Utils.Request.abortController.signal,
-                    mode: 'no-cors',
                     headers: this.headers,
-                    credentials: 'same-origin'
                 });
             } catch (err) {
                 alert(Utils.ERROR_MESSAGE + err)
