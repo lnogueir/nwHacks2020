@@ -1,6 +1,6 @@
 # nwHacks 2020
 
-![weNote main page](https://github.com/lnogueir/nwHacks2020/blob/master/frontend/src/assets/images/logo.png)
+![weNote main page](https://github.com/lnogueir/lucasnogueira/blob/master/src/assets/images/wenote.png)
 
 ## Inspiration
 To students, notes are an academic gold standard. Many work tirelessly to create immaculate lecture transcriptions and course study guides - but not everyone writes in a style that is accessible to everyone else, making the task of sharing notes sometimes fruitless. Moreover, board notes are often messy, or unreliable. Wouldn't it be nice for a crowdsourced bank of lecture notes to be minimized to just the bare essentials? But moreover, essentials tailored to your chosen style of reading and learning?
